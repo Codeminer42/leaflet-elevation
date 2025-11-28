@@ -6,6 +6,7 @@
   "main": "dist/leaflet-elevation.min.js",
   "browser": "dist/leaflet-elevation.min.js",
   "module": "src/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "uvu . \"(examples|src)[\\\\/].*\\.spec\\.js$\"",
     "build": "rollup -c build/rollup.config.js",
